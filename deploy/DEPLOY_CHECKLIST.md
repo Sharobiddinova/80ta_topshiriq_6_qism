@@ -18,7 +18,7 @@ git push -u origin main
 3. Shu repodagi `render.yaml` ni tanlang.
 4. `RPC_URL`, `PRIVATE_KEY`, `CONTRACT_ADDRESS` env kiriting.
 5. Deploy tugashi bilan URL oling (`https://...onrender.com/health`).
-6. Eslatma: free instance 15 daqiqa idle bo'lsa uxlaydi (cold start bo'ladi).
+6. Eslatma: free instance uchun usage limitlar qo'llanadi.
 
 ## 3) Frontend (Vercel)
 
@@ -30,7 +30,7 @@ git push -u origin main
 ## 3.1) Free tier eslatmalar
 
 - Vercel Hobby: free, lekin usage cap bilan.
-- Render Free: 750 soat/oy va idle spin-down.
+- Render Free: bepul, lekin usage limitlari bor.
 - Supabase Free: 2 ta free project.
 - Neon Free: free tier usage limitlari bor.
 

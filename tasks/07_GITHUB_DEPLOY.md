@@ -11,7 +11,7 @@ Loyihani GitHubga chiqarish va tekin tier servislarda ishga tushirish.
 
 ## Free tier bo'yicha amaliy izoh (2026-04 holat)
 - Vercel Hobby: free forever, lekin usage cap bor.
-- Render Free Web Service: 15 daqiqa idle bo'lsa spin down bo'ladi, 750 soat/oy limit.
+- Render Free instance: bepul, lekin usage limitlar qo'llanadi.
 - Supabase Free: 2 ta free project.
 - Neon Free: no time limit, lekin usage limitlar bor.
 
