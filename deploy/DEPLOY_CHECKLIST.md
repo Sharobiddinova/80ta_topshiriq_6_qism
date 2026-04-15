@@ -18,6 +18,7 @@ git push -u origin main
 3. Shu repodagi `render.yaml` ni tanlang.
 4. `RPC_URL`, `PRIVATE_KEY`, `CONTRACT_ADDRESS` env kiriting.
 5. Deploy tugashi bilan URL oling (`https://...onrender.com/health`).
+6. Eslatma: free instance 15 daqiqa idle bo'lsa uxlaydi (cold start bo'ladi).
 
 ## 3) Frontend (Vercel)
 
@@ -25,6 +26,13 @@ git push -u origin main
 2. `New Project` orqali shu repodan `implementation/frontend` ni tanlang.
 3. Static deployni boshlang.
 4. Frontendda API URL maydoniga Render URL yozib tekshiring.
+
+## 3.1) Free tier eslatmalar
+
+- Vercel Hobby: free, lekin usage cap bilan.
+- Render Free: 750 soat/oy va idle spin-down.
+- Supabase Free: 2 ta free project.
+- Neon Free: free tier usage limitlari bor.
 
 ## 4) DB (ixtiyoriy: Supabase/Neon)
 
@@ -39,3 +47,11 @@ Agar in-memory o'rniga haqiqiy DB ishlatsangiz:
 - `/patients/:wallet/records` bilan kirish nazorati ishlaydi
 - `/medicines/verify` ishlaydi
 - `/audit/logs` admin uchun ishlaydi
+
+## 6) GitHub push skript
+
+Repo URL bo'lsa bitta buyruq bilan push:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\deploy\push_to_github.ps1 -RepoUrl \"https://github.com/<username>/<repo>.git\"
+```

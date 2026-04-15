@@ -23,6 +23,7 @@ Bu repoda siz bergan har bir topshiriq alohida faylda bajarilgan va deploy uchun
 
 - Render backend blueprint: `render.yaml`
 - Deploy qo'llanma: `deploy/DEPLOY_CHECKLIST.md`
+- GitHub push skript: `deploy/push_to_github.ps1`
 - Frontend Vercel config: `implementation/frontend/vercel.json`
 
 ## Ishlatish tartibi

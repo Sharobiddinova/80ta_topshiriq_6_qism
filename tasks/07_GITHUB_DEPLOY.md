@@ -5,9 +5,15 @@ Loyihani GitHubga chiqarish va tekin tier servislarda ishga tushirish.
 
 ## Tavsiya etilgan joylash
 - Frontend: Vercel
-- Backend API: Render yoki Koyeb
+- Backend API: Render (Free Web Service)
 - PostgreSQL: Supabase yoki Neon
 - Blockchain: Polygon testnet (Amoy)
+
+## Free tier bo'yicha amaliy izoh (2026-04 holat)
+- Vercel Hobby: free forever, lekin usage cap bor.
+- Render Free Web Service: 15 daqiqa idle bo'lsa spin down bo'ladi, 750 soat/oy limit.
+- Supabase Free: 2 ta free project.
+- Neon Free: no time limit, lekin usage limitlar bor.
 
 ## 1. GitHubga yuklash
 ```bash
@@ -48,4 +54,4 @@ Frontend uchun:
 - [ ] Audit loglar chiqadi
 
 ## Eslatma
-Agar tekin tier limitga yetsa, alternativ sifatida Railway/Fly.io dan foydalanish mumkin.
+Agar tekin tier limitga yetsa, pullik plan yoki boshqa providerga o'tiladi.
